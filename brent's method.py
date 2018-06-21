@@ -98,7 +98,7 @@ def brent(f, x1, x2, MIter=500, tol=0.0001):
 
 
 
-def f(x):
+def f(x): #example functions
     #return x**3 - x - 2
     #return (x + 3) * ((x - 1) ** 2)
     return x**3 - 9*x + 5
